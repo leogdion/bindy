@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bindy", "bindy\bindy.csproj", "{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Release|iPhone.Build.0 = Release|iPhone
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BA6BCC1B-6490-4571-90A2-3A3B1B5F822B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = bindy\bindy.csproj
+	EndGlobalSection
+EndGlobal
