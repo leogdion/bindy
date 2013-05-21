@@ -1,14 +1,14 @@
 //
-//  helper.m
-//  bindy
+//  testbinding.m
+//  testbinding
 //
-//  Created by Leo G Dion on 5/20/13.
+//  Created by Leo G Dion on 5/21/13.
 //  Copyright (c) 2013 Leo Dion. All rights reserved.
 //
 
-#import "helper.h"
+#import "Controller.h"
 
-@implementation helper
+@implementation Controller
 
 - (NSString*) helloWorld {
     return @"Hello World";

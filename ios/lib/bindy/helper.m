@@ -1,15 +1,17 @@
 //
-//  helper.h
+//  helper.m
 //  bindy
 //
 //  Created by Leo G Dion on 5/20/13.
 //  Copyright (c) 2013 Leo Dion. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "helper.h"
 
-@interface helper : NSObject
+@implementation helper
 
-- (NSString*) helloWorld;
++(NSString*) helloWorld {
+    return @"Hello World";
+}
 
 @end
