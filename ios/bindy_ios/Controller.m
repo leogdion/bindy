@@ -25,9 +25,23 @@ static id<Store> store = nil;
     return self;
 }
 
-- (int) main {
+- (char**)convertArray: (NSArray*) a_array
+{
+    unsigned count = [a_array count];
+    char **array = (char **)malloc((count + 1) * sizeof(char*));
+    
+    for (unsigned i = 0; i < count; i++)
+    {
+        array[i] = strdup([[a_array objectAtIndex:i] UTF8String]);
+    }
+    array[count] = NULL;
+    return array;
+}
+
+- (int) main: (NSArray *) arguments {
     @autoreleasepool {
-        return UIApplicationMain(0, nil, nil, NSStringFromClass([AppDelegate class]));
+        char ** argv = [self convertArray:arguments];
+        return UIApplicationMain(arguments.count, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
 

@@ -18,10 +18,10 @@ namespace bindy.iOS {
 		[Export ("initWithStore:")]
 		IntPtr Constructor (Store store);
 
-		[Export ("main")]
-		int Main();
-
 		[Export ("helloWorld")]
 		string HelloWorld { get; }
+        
+		[Export ("main:")]
+		int Main (string [] arguments);
 	}
 }

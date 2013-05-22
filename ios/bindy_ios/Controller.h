@@ -12,7 +12,7 @@
 @interface Controller : NSObject
 
 - (id) initWithStore:(id<Store>)Store;
-- (int) main;
+- (int) main: (NSArray*) arguments;
 
 +(NSString*) helloWorld;
 
