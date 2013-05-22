@@ -24,9 +24,12 @@
     <MtouchDebug>true</MtouchDebug>
     <CustomCommands>
       <CustomCommands>
-        <Command type="BeforeBuild" command="cp bindy_ios.dll ${TargetDir}" workingdir="${ProjectDir}" />
+        <Command type="BeforeBuild" command="xcodebuild -project bindy_ios.xcodeproj -alltargets clean" workingdir="${SolutionDir}/ios" />
+        <Command type="BeforeBuild" command="xcodebuild -project bindy_ios.xcodeproj -alltargets" workingdir="${SolutionDir}/ios" />
       </CustomCommands>
     </CustomCommands>
+    <MtouchI18n />
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <Optimize>true</Optimize>
@@ -46,6 +49,9 @@
     <ConsolePause>false</ConsolePause>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
+    <IpaPackageName />
+    <MtouchI18n />
+    <MtouchArch>ARMv7, ARMv7s</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>

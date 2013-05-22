@@ -25,3 +25,4 @@ obj
 *.dll
 xcuserdata/
 ios/ApiReference.ignore.cs
+ios/build
