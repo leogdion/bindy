@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
-using TestBinding;
+using bindy.iOS;
 
 namespace bindy
 {

@@ -1,8 +1,8 @@
 //
-//  testbinding.h
-//  testbinding
+//  Controller.h
+//  bindy_ios
 //
-//  Created by Leo G Dion on 5/21/13.
+//  Created by Leo G Dion on 5/22/13.
 //  Copyright (c) 2013 Leo Dion. All rights reserved.
 //
 

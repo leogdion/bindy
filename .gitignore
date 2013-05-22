@@ -20,4 +20,7 @@ Icon
 .Trashes
 
 bin
-obj  
+obj
+*.a
+*.dll
+xcuserdata/

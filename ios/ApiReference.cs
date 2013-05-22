@@ -3,7 +3,7 @@ using MonoTouch.ObjCRuntime;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace TestBinding {
+namespace bindy.iOS {
 
 	[BaseType (typeof (NSObject))]
 	public partial interface Controller {

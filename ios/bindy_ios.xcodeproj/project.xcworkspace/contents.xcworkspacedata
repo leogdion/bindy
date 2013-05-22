@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testbinding.xcodeproj">
+      location = "self:bindy_ios.xcodeproj">
    </FileRef>
 </Workspace>
