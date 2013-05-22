@@ -4,12 +4,24 @@ using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
 namespace bindy.iOS {
-
-	[BaseType (typeof (NSObject))]
-	public partial interface Controller {
-
+    [Model]
+    [BaseType (typeof (NSObject))]
+	public partial interface Store {
+            [Abstract]
 		[Export ("helloWorld")]
 		string HelloWorld { get; }
 	}
 
+	[BaseType (typeof (NSObject))]
+	public partial interface Controller {
+
+		[Export ("initWithStore:")]
+		IntPtr Constructor (Store store);
+
+		[Export ("main")]
+		int Main();
+
+		[Export ("helloWorld")]
+		string HelloWorld { get; }
+	}
 }

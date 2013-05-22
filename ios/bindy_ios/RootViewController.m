@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "Controller.h"
 
 @interface RootViewController ()
 
@@ -28,7 +29,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     UILabel * label = [[UILabel alloc] initWithFrame:self.view.frame];
-    label.text = @"Hello World";
+    label.text = [Controller helloWorld];
     [self.view addSubview:label];
 }
 

@@ -1,5 +1,5 @@
 //
-//  Controller.h
+//  Store.h
 //  bindy_ios
 //
 //  Created by Leo G Dion on 5/22/13.
@@ -7,13 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Store.h"
 
-@interface Controller : NSObject
+@protocol Store <NSObject>
 
-- (id) initWithStore:(id<Store>)Store;
-- (int) main;
-
-+(NSString*) helloWorld;
+@required
+-(NSString*) helloWorld;
 
 @end

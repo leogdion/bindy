@@ -12,11 +12,13 @@ namespace bindy
 		// This is the main entry point of the application.
 		static void Main (string[] args)
 		{		
-			Controller c = new Controller ();
-			Console.WriteLine (c.HelloWorld);
+			MainStore store = new MainStore ();
+			Controller c = new Controller(store);
+			c.Main();
 			// if you want to use a different Application Delegate class from "AppDelegate"
 			// you can specify it here.
-			UIApplication.Main (args, null, "AppDelegate");
+			//UIApplication.Main(args, null, "AppDelegate");
+
 		}
 	}
 }

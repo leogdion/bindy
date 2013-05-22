@@ -34,6 +34,7 @@
 		7BA8A587174CFE7500286246 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BA8A588174CFE7500286246 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7BA8A58A174CFF3B00286246 /* ApiReference.ignore.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ApiReference.ignore.cs; sourceTree = "<group>"; };
+		7BA8A58B174D0A6E00286246 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
 		7BAF35A6174C12FC004A9B5B /* libbindy_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbindy_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAF35A9174C12FC004A9B5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BAF35AD174C12FC004A9B5B /* bindy_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bindy_ios-Prefix.pch"; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 				7BA8A581174CF87F00286246 /* Controller.m */,
 				7BA8A584174CFD6700286246 /* RootViewController.h */,
 				7BA8A585174CFD6700286246 /* RootViewController.m */,
+				7BA8A58B174D0A6E00286246 /* Store.h */,
 			);
 			path = bindy_ios;
 			sourceTree = "<group>";
