@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7BA8A582174CF87F00286246 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A581174CF87F00286246 /* Controller.m */; };
+		7BA8A586174CFD6700286246 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A585174CFD6700286246 /* RootViewController.m */; };
 		7BAF35AA174C12FC004A9B5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAF35A9174C12FC004A9B5B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,9 @@
 /* Begin PBXFileReference section */
 		7BA8A580174CF87F00286246 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		7BA8A581174CF87F00286246 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		7BA8A583174CFD3000286246 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../../bindy/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7BA8A584174CFD6700286246 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7BA8A585174CFD6700286246 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		7BAF35A6174C12FC004A9B5B /* libbindy_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbindy_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAF35A9174C12FC004A9B5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BAF35AD174C12FC004A9B5B /* bindy_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bindy_ios-Prefix.pch"; sourceTree = "<group>"; };
@@ -75,9 +79,12 @@
 		7BAF35AB174C12FC004A9B5B /* bindy_ios */ = {
 			isa = PBXGroup;
 			children = (
+				7BA8A583174CFD3000286246 /* MainStoryboard.storyboard */,
 				7BAF35AC174C12FC004A9B5B /* Supporting Files */,
 				7BA8A580174CF87F00286246 /* Controller.h */,
 				7BA8A581174CF87F00286246 /* Controller.m */,
+				7BA8A584174CFD6700286246 /* RootViewController.h */,
+				7BA8A585174CFD6700286246 /* RootViewController.m */,
 			);
 			path = bindy_ios;
 			sourceTree = "<group>";
@@ -160,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA8A582174CF87F00286246 /* Controller.m in Sources */,
+				7BA8A586174CFD6700286246 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
