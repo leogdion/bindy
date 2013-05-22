@@ -11,4 +11,5 @@ namespace bindy.iOS {
 		[Export ("helloWorld")]
 		string HelloWorld { get; }
 	}
+
 }
